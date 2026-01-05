@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usman Zewde - Web Developer</title>
+    <link rel="icon" type="image/jpeg" href="./asset/myphoto.jpg">
+    <link rel="shortcut icon" type="image/jpeg" href="./asset/myphoto.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <div class="mobile-top-buttons">
+        <button class="mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle dark mode">
+            <i class="fas fa-sun" id="mobileThemeIcon"></i>
+        </button>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+            <i class="fas fa-bars" id="menuIcon"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <nav class="mobile-menu">
+            <a href="#home" class="mobile-nav-item" data-nav="home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#about" class="mobile-nav-item" data-nav="about">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+            </a>
+            <a href="#skills" class="mobile-nav-item" data-nav="skills">
+                <i class="fas fa-code"></i>
+                <span>Skill</span>
+            </a>
+            <a href="#projects" class="mobile-nav-item" data-nav="projects">
+                <i class="fas fa-folder"></i>
+                <span>Projects</span>
+            </a>
+            <a href="#certificates" class="mobile-nav-item" data-nav="certificates">
+                <i class="fas fa-award"></i>
+                <span>Certificate</span>
+            </a>
+            <a href="#contact" class="mobile-nav-item" data-nav="contact">
+                <i class="fas fa-phone"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="welcome-text">
+                    Welcome <span class="wave">👋</span>
+                </h1>
+                <h2 class="name-text">I'm, <span class="name">Usman Zewde</span></h2>
+                <p class="web-developer-text">Web Developer</p>
+                <p class="job-title">Web Developer | Software Engineering Student</p>
+                <p class="description">
+                    Let's build fast, stunning, and responsive websites that bring your ideas to life. 😎
+                </p>
+                <div class="contact-social">
+                    <p class="contact-label">Contact with me</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/usmiz1" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/usman-zewde-5886303a2/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://wa.me/message/3Y4QECFK5QKQO1" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/usmiz1?igsh=ODF5MHZ3c2FnMTh0" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-elements">
+            <div class="decorative-icon code-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="decorative-dots">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">ABOUT ME</p>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./asset/myphoto.jpg" alt="About Usman" class="about-rectangle-img">
+                    <div class="about-circular-container">
+                        <img src="./asset/circular_image.png" alt="About Usman" class="about-circular-img">
+                        <div class="about-circular-decorative">
+                            <span class="about-circular-dot about-circular-dot-1"></span>
+                            <span class="about-circular-dot about-circular-dot-2"></span>
+                            <span class="about-circular-dot about-circular-dot-3"></span>
+                            <i class="fas fa-angle-right about-circular-bracket"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm Usman Zewde, a Software Engineering student at Arba Minch University with a passion for web development. I specialize in building modern, responsive, and user-friendly websites using HTML, CSS, and JavaScript, and I'm always eager to explore new technologies and improve my skills through hands-on projects.
+                    </p>
+                    <p>
+                        My goal is to create fast, efficient, and visually appealing websites that provide excellent user experiences. Whether it's collaborating on a team or bringing a project idea to life, I'm dedicated to turning concepts into real, functional web solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">WHAT I DO</p>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-palette skill-icon"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">HTML / CSS</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="95" style="background: linear-gradient(90deg, #3b82f6, #06b6d4);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="90" style="background: linear-gradient(90deg, #8b5cf6, #3b82f6);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="85" style="background: linear-gradient(90deg, #06b6d4, #10b981);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">Vue.js</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="75" style="background: linear-gradient(90deg, #10b981, #84cc16);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-cog skill-icon"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="80" style="background: linear-gradient(90deg, #10b981, #059669);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="70" style="background: linear-gradient(90deg, #f97316, #ea580c);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">RESTful APIs</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="85" style="background: linear-gradient(90deg, #3b82f6, #8b5cf6);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">Database</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="75" style="background: linear-gradient(90deg, #ec4899, #dc2626);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Other -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h3>Tools & Other</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">Git / GitHub</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="90" style="background: linear-gradient(90deg, #f97316, #dc2626);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">Docker</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="70" style="background: linear-gradient(90deg, #3b82f6, #1e40af);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">AWS / Cloud</span>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="65" style="background: linear-gradient(90deg, #fbbf24, #f59e0b);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-row">
+                            <span class="skill-name">CI/CD</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="75" style="background: linear-gradient(90deg, #8b5cf6, #6366f1);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./asset/Ecommerce.jpg" alt="E-Commerce Platform" onerror="this.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)';">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Modern e-commerce platform with product catalog and shopping cart functionality.</p>
+                        <a href="#" class="btn-see-detail">See detail</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./asset/task_management.jpg" alt="Task Management App" onerror="this.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Intuitive task management application with drag-and-drop and local storage.</p>
+                        <a href="#" class="btn-see-detail">See detail</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./asset/Weather_Dashboard.jpg" alt="Weather Dashboard" onerror="this.style.background='linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)';">
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Interactive weather dashboard with current conditions and forecasts.</p>
+                        <a href="#" class="btn-see-detail">See detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">MY ACHIEVEMENTS</p>
+                <h2 class="section-title">Certificates</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <a href="./asset/ai.jpg" download="AI_Certificate.jpg" class="certificate-download-link">
+                            <img src="./asset/ai.jpg" alt="AI Certificate" onerror="this.style.display='none';">
+                        </a>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Certificate in AI and Machine Learning Fundamentals</p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <a href="./asset/android.jpg" download="Android_Certificate.jpg" class="certificate-download-link">
+                            <img src="./asset/android.jpg" alt="Android Certificate" onerror="this.style.display='none';">
+                        </a>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Android Development</h3>
+                        <p>Mobile Application Development Certificate</p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <a href="./asset/fundamental.jpg" download="Fundamentals_Certificate.jpg" class="certificate-download-link">
+                            <img src="./asset/fundamental.jpg" alt="Fundamentals Certificate" onerror="this.style.display='none';">
+                        </a>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Fundamentals</h3>
+                        <p>Computer Science Fundamentals Certificate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What is on your mind?</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-card">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you need a Frontend Developer for your team or want to discuss a project, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:zewdeusman@gmail.com" class="contact-value">zewdeusman@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+251942726032" class="contact-value">+251942726032</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Addis Ababa, Ethiopia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social-section">
+                        <p class="contact-social-label">Contact with me</p>
+                        <div class="contact-social-icons">
+                            <a href="https://github.com/usmiz1" target="_blank" rel="noopener noreferrer" class="contact-social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/usman-zewde-5886303a2/" target="_blank" rel="noopener noreferrer" class="contact-social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://wa.me/message/3Y4QECFK5QKQO1" target="_blank" rel="noopener noreferrer" class="contact-social-icon" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/usmiz1?igsh=ODF5MHZ3c2FnMTh0" target="_blank" rel="noopener noreferrer" class="contact-social-icon" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-card">
+                    <h3 class="contact-form-title">Send Me a Message</h3>
+                    <p class="contact-form-description">Fill out the form and send me a message. I'll get back to you as soon as possible to discuss your project, ideas, or questions.</p>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="your name" required>
+                        <input type="text" placeholder="whatsApp or other">
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="message" rows="5" required></textarea>
+                        <button type="submit" class="btn-send">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Made With ❤️ by Usman Zewde</p>
+            <p>Built using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active" data-nav="home">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#about" class="nav-item" data-nav="about">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+        </a>
+        <a href="#skills" class="nav-item" data-nav="skills">
+            <i class="fas fa-code"></i>
+            <span>Skill</span>
+        </a>
+        <a href="#projects" class="nav-item" data-nav="projects">
+            <i class="fas fa-folder"></i>
+            <span>Projects</span>
+        </a>
+        <a href="#certificates" class="nav-item" data-nav="certificates">
+            <i class="fas fa-award"></i>
+            <span>Certificate</span>
+        </a>
+        <a href="#contact" class="nav-item" data-nav="contact">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+        <button class="nav-item theme-toggle-nav" id="themeToggleNav" aria-label="Toggle dark mode">
+            <i class="fas fa-sun" id="themeIconNav"></i>
+        </button>
+    </nav>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>
